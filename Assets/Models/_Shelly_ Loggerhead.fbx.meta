@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 6da96b4ee70c4684cae3362d6127c564
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: flipper-left.001
+    100004: flipper-left.002
+    100006: flipper-left.003
+    100008: flipper-left.004
+    100010: flipper-left.005
+    100012: flipper-left.005_end
+    100014: flipper-right.001
+    100016: flipper-right.002
+    100018: flipper-right.003
+    100020: flipper-right.004
+    100022: flipper-right.005
+    100024: flipper-right.005_end
+    100026: head.001
+    100028: head.001_end
+    100030: head.002
+    100032: hind-left.001
+    100034: hind-left.002
+    100036: hind-left.003
+    100038: hind-left.003_end
+    100040: hind-right.001
+    100042: hind-right.002
+    100044: hind-right.003
+    100046: hind-right.003_end
+    100048: loggerhead.armature
+    100050: loggerhead.body
+    100052: Main
+    100054: Spine.001
+    100056: Spine.002
+    100058: Spine.003
+    100060: Spine.004
+    100062: Spine.004_end
+    100064: Sun
+    100066: tail.001
+    100068: tail.001_end
+    400000: //RootNode
+    400002: flipper-left.001
+    400004: flipper-left.002
+    400006: flipper-left.003
+    400008: flipper-left.004
+    400010: flipper-left.005
+    400012: flipper-left.005_end
+    400014: flipper-right.001
+    400016: flipper-right.002
+    400018: flipper-right.003
+    400020: flipper-right.004
+    400022: flipper-right.005
+    400024: flipper-right.005_end
+    400026: head.001
+    400028: head.001_end
+    400030: head.002
+    400032: hind-left.001
+    400034: hind-left.002
+    400036: hind-left.003
+    400038: hind-left.003_end
+    400040: hind-right.001
+    400042: hind-right.002
+    400044: hind-right.003
+    400046: hind-right.003_end
+    400048: loggerhead.armature
+    400050: loggerhead.body
+    400052: Main
+    400054: Spine.001
+    400056: Spine.002
+    400058: Spine.003
+    400060: Spine.004
+    400062: Spine.004_end
+    400064: Sun
+    400066: tail.001
+    400068: tail.001_end
+    2100000: body
+    2100002: eyes.inner
+    2100004: eyes.outer
+    4300000: loggerhead.body
+    7400000: loggerhead.armature|Armature.loggerheadAction.001
+    9500000: //RootNode
+    10800000: Sun
+    13700000: loggerhead.body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 5f5b541c664bc824191fb1e932b648fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes.inner
+    second: {fileID: 2100000, guid: b73280ba9aa69404eb3c76914d3f1669, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
