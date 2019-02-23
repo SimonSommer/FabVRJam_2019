@@ -6,7 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager manager;
 
-
+    public Life playerLife;
+    public Life baseLife;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(playerLife.health <= 0 || baseLife.health <= 0) {
+
+        }
     }
 }
