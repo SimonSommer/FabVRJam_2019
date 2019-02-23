@@ -7,8 +7,8 @@ public class Life : MonoBehaviour
 {
     UnityEvent died = new UnityEvent();
 
-    [SerializeField]
-    float health = 100f;
+
+    public float health = 100f;
 
     public void Damage(float amount)
     {

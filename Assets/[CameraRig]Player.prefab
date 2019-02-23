@@ -116,10 +116,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d25bcf7aa2e824eb9a987d8d6bfd7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 6454476020168200047, guid: 6c42114104935c043a5391e6274f926e,
+  bulletPrefab: {fileID: 2643297011701946781, guid: bc911a9bec6236b4d8dc7fe1e32687c4,
     type: 3}
   startTransform: {fileID: 364024804}
-  cooldown: 0.05
+  cooldown: 0.25
 --- !u!1 &359490048
 GameObject:
   m_ObjectHideFlags: 0
