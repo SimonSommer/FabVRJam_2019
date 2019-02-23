@@ -9,11 +9,14 @@ public class Turret : MonoBehaviour
     [SerializeField]
     Weapon weapon;
     public Transform target;
-    
+
+    public float offset;
     // Update is called once per frame
     void Update()
     {
-        rotator.LookAt(target);
+        Vector3 targetPos = target.position;
+        targetPos.y += offset;
+        rotator.LookAt(targetPos);
 
         if (weapon != null && target != null)
             weapon.Attack();
