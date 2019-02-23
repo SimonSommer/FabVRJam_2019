@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public Life playerLife;
     public Life baseLife;
 
+    public GameObject losingText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,8 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if(playerLife.health <= 0 || baseLife.health <= 0) {
+            losingText.SetActive(true);
+            Time.timeScale = 0;
 
         }
     }
