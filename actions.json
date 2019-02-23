@@ -49,6 +49,14 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/Attack1",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Attack2",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
@@ -152,7 +160,9 @@
       "/actions/default/out/Haptic": "Haptic",
       "/actions/platformer/in/Jump": "Jump",
       "/actions/default/in/Move1": "move1",
-      "/actions/default/in/Move2": "move2"
+      "/actions/default/in/Move2": "move2",
+      "/actions/default/in/Attack1": "Attack1",
+      "/actions/default/in/Attack2": "Attack2"
     }
   ]
 }
