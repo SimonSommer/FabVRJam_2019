@@ -8,7 +8,7 @@ public class Turret : MonoBehaviour
     Transform rotator;
     [SerializeField]
     Weapon weapon;
-    Transform target;
+    public Transform target;
     
     // Update is called once per frame
     void Update()

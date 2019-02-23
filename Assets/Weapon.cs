@@ -9,19 +9,24 @@ public class Weapon : MonoBehaviour
 
     public float cooldown = 0.5f;
 
-    private float _timer = 0;
+    public float _timer = 0;
 
     // Update is called once per frame
     void Update()
     {
-        _timer = Mathf.Clamp(_timer - Time.deltaTime, 0, cooldown);
+        _timer -= Time.deltaTime;
+
+        if (_timer < 0)
+            _timer = 0;
     }
     
     public void Attack()
     {
-        if(_timer <= 0)
+        if(_timer == 0)
         {
-            Instantiate(bulletPrefab, startTransform.position, startTransform.rotation);
+            Debug.Log("shpoot");
+
+            GameObject go =  Instantiate(bulletPrefab, startTransform.position, startTransform.rotation);
 
             _timer = cooldown;
         }
