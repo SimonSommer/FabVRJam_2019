@@ -1,5 +1,6 @@
 {
-   "app_key" : "application.generated.unity.steamvr.exe",
+   "alias_info" : {},
+   "app_key" : "application.generated.unity.febjamvr_2019.exe",
    "bindings" : {
       "/actions/buggy" : {
          "sources" : [
@@ -110,7 +111,10 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/default/in/teleport"
+                     "output" : "/actions/default/in/move"
+                  },
+                  "held" : {
+                     "output" : "/actions/default/in/move1"
                   }
                },
                "mode" : "button",
@@ -169,7 +173,10 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/default/in/teleport"
+                     "output" : "/actions/default/in/move"
+                  },
+                  "held" : {
+                     "output" : "/actions/default/in/move2"
                   }
                },
                "mode" : "button",
@@ -205,6 +212,24 @@
                   }
                },
                "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "held" : {
+                     "output" : "/actions/default/in/attack1"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "held" : {
+                     "output" : "/actions/default/in/attack2"
+                  }
+               },
+               "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
             }
          ]
@@ -252,5 +277,7 @@
    },
    "controller_type" : "vive_controller",
    "description" : "",
-   "name" : "vive_controller"
+   "name" : "vive_controller",
+   "options" : {},
+   "simulated_actions" : []
 }
