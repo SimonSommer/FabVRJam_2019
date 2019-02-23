@@ -10,6 +10,9 @@ public class VRAttacking : MonoBehaviour
     public SteamVR_Action_Boolean steam_action1;
     public SteamVR_Action_Boolean steam_action2;
 
+    public Weapon weapon1;
+    public Weapon weapon2;
+
 
     // Update is called once per frame
     void Update()
@@ -17,15 +20,15 @@ public class VRAttacking : MonoBehaviour
 
         if (steam_action1.GetState(input_Source))
         {
-
+            weapon1.Attack();
         }
 
         if (steam_action2.GetState(input_Source))
         {
-
+            weapon2.Attack();
         }
 
-     
+
 
     }
 }

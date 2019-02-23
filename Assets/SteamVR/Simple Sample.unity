@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 24851823}
   - component: {fileID: 24851822}
   - component: {fileID: 24851821}
+  - component: {fileID: 24851826}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -220,41 +221,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &290722162
-Material:
-  serializedVersion: 6
+--- !u!114 &24851826
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!43 &635615573
+  m_GameObject: {fileID: 24851820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c9288ffd9e2aa64aa991351bb7eeb2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+--- !u!43 &75658114
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -414,6 +394,40 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!21 &203956834
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1474170597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -472,31 +486,11 @@ PrefabInstance:
     - target: {fileID: 1474170604, guid: c7cf810550e7a914eb64661c4e6ff9d8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 290722162}
+      objectReference: {fileID: 203956834}
     - target: {fileID: 1474170603, guid: c7cf810550e7a914eb64661c4e6ff9d8, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 635615573}
-    - target: {fileID: 2042730552083812398, guid: c7cf810550e7a914eb64661c4e6ff9d8,
-        type: 3}
-      propertyPath: m_UseWorldSpace
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2042730552083812398, guid: c7cf810550e7a914eb64661c4e6ff9d8,
-        type: 3}
-      propertyPath: m_Parameters.widthMultiplier
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 5709636316441466345, guid: c7cf810550e7a914eb64661c4e6ff9d8,
-        type: 3}
-      propertyPath: m_UseWorldSpace
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5709636316441466345, guid: c7cf810550e7a914eb64661c4e6ff9d8,
-        type: 3}
-      propertyPath: m_Parameters.widthMultiplier
-      value: 0.02
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 75658114}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7cf810550e7a914eb64661c4e6ff9d8, type: 3}
 --- !u!1 &1548954329
