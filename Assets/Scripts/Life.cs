@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Life : MonoBehaviour
 {
-    UnityEvent died;
+    UnityEvent died = new UnityEvent();
 
 
     public float health = 100f;
