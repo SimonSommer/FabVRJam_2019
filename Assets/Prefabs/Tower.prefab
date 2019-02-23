@@ -81,6 +81,7 @@ MonoBehaviour:
   rotator: {fileID: 4585077098223249768}
   weapon: {fileID: 3327252143742310697}
   target: {fileID: 0}
+  offset: 2
 --- !u!114 &3327252143742310697
 MonoBehaviour:
   m_ObjectHideFlags: 0

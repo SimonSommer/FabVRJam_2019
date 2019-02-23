@@ -483,6 +483,10 @@ GameObject:
   - component: {fileID: 1474170603}
   - component: {fileID: 1474170602}
   - component: {fileID: 1474170599}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 1072968657}
+>>>>>>> 14b033a8f9a6d62cffdd207e0ca9e44c7a58a284
   m_Layer: 10
   m_Name: '[CameraRig]Player'
   m_TagString: Untagged
@@ -595,8 +599,21 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!135 &1072968657
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474170598}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.65
+  m_Center: {x: 0, y: 1.22, z: 0}
 --- !u!1 &1732329066
 GameObject:
   m_ObjectHideFlags: 0
