@@ -6,6 +6,8 @@ public class TurtleSpawner : MonoBehaviour
 {
     public GameObject TurtleModel;
 
+    public float RespawnTime = 3;
+
     private float time;
 
     public Transform[] AllTargets;
@@ -22,7 +24,7 @@ public class TurtleSpawner : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        if(time >= 2) {
+        if(time >= RespawnTime) {
             Instantiate(TurtleModel, transform.position, transform.rotation, transform);
             time = 0;
         }
