@@ -46,6 +46,5 @@ public class VRMovement : MonoBehaviour
         moveVector *= Speed; 
         ObjectToMove.velocity = moveVector;
 
-   //     if(SteamVR_Input._)
     }
 }
