@@ -28,7 +28,6 @@ public class VRMovement : MonoBehaviour
     void Update()
     {
         Vector3 moveVector = Vector3.zero;
-        Vector3 directon = (ReferenceTransform1.forward  + ReferenceTransform2.forward )*  0.5f;
 
         if (steam_action1.GetState(input_Source))
         {

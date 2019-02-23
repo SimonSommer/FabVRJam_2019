@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1285365392489718438}
   - component: {fileID: 7269409869198475958}
   - component: {fileID: 763159999762229343}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SpawnTowerBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 218fd90250a33c44ea5dc708558b359f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 622354159538799645, guid: f011d242cdf177547b453811c2ca23b0,
+  objectToSpawn: {fileID: 2213297827980629700, guid: 7d5dbf0f5377efa498803a346929d0af,
     type: 3}
 --- !u!1 &8174129727059243063
 GameObject:
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 6686289561759960883}
   - component: {fileID: 2388095148727925241}
   - component: {fileID: 1891774247184357771}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
