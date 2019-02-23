@@ -826,6 +826,7 @@ MonoBehaviour:
   rotator: {fileID: 0}
   weapon: {fileID: 2757207687901316972}
   target: {fileID: 0}
+  offset: 0
 --- !u!114 &2757207687901316972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1193,8 +1194,6 @@ GameObject:
   - component: {fileID: 3599626297726658872}
   - component: {fileID: 4515518317370943426}
   - component: {fileID: 5855940196776552108}
-  - component: {fileID: 3877454820908350960}
-  - component: {fileID: 4071788009215437706}
   - component: {fileID: 1707845673712702616}
   - component: {fileID: 6710467189487463617}
   m_Layer: 9
@@ -1256,37 +1255,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goals: []
   indexGoals: 0
---- !u!114 &3877454820908350960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8778349130090676961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54a6bac9bcb8ab1438eef734554cab6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotator: {fileID: 0}
-  weapon: {fileID: 4071788009215437706}
-  target: {fileID: 0}
---- !u!114 &4071788009215437706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8778349130090676961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75d25bcf7aa2e824eb9a987d8d6bfd7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
-  startTransform: {fileID: 0}
-  cooldown: 0.5
-  _timer: 0
 --- !u!114 &1707845673712702616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1299,7 +1267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c9288ffd9e2aa64aa991351bb7eeb2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 300
 --- !u!65 &6710467189487463617
 BoxCollider:
   m_ObjectHideFlags: 0

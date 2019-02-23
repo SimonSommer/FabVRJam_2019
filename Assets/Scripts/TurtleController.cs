@@ -29,8 +29,8 @@ public class TurtleController : MonoBehaviour
     }
 
     private void Update() {
-        print(goals[indexGoals].name);
-        if (Vector3.Distance(goals[indexGoals].position, transform.position) < 1.0f) {
+      //  print(goals[indexGoals].name);
+        if (Vector3.Distance(goals[indexGoals].position, transform.position) < 10.0f) {
             if(indexGoals < goals.Length - 1) {
                 indexGoals++;
                 agent.destination = goals[indexGoals].position;
