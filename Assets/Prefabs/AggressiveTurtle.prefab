@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8201152936245025254}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hind-right.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3247339672054955034}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: head.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5438169597291708267}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-right.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8627389353544430271}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tail.001_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5439909852464924455}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2470427557653695181}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hind-left.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5175338521039093177}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: head.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7349284068480323374}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-left.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 914012301547914991}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spine.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5275280287402706782}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hind-right.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4870681407973436506}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-right.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5644259892337044847}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spine.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1838801285554147449}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: head.001_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7956200632065202404}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-left.005_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -447,7 +447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1614583138543280884}
   - component: {fileID: 4760205723157679078}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: loggerhead.body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,7 +552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7982914707618519391}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-left.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -583,7 +583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1065767693002401325}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tail.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -614,7 +614,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 604141779801346017}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spine.004_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -644,7 +644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2267695314831773116}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hind-right.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -675,7 +675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8709425335120872433}
   - component: {fileID: 2481992388834162108}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Animation+Meshes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -727,7 +727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5913920369037168371}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-right.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -758,7 +758,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6330305804579227081}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-right.005_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -788,15 +788,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1583262442252092026}
-  - component: {fileID: 1379573633491442047}
-  - component: {fileID: 2757207687901316972}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1583262442252092026
 Transform:
   m_ObjectHideFlags: 0
@@ -805,41 +803,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5151746611244074611}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.428, z: -0.32}
+  m_LocalPosition: {x: 0, y: 0.464, z: -0.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 8494257558669030473}
+  - {fileID: 222982078843377996}
   m_Father: {fileID: 8709425335120872433}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1379573633491442047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5151746611244074611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54a6bac9bcb8ab1438eef734554cab6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotator: {fileID: 0}
-  weapon: {fileID: 2757207687901316972}
---- !u!114 &2757207687901316972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5151746611244074611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75d25bcf7aa2e824eb9a987d8d6bfd7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
-  startTransform: {fileID: 0}
-  cooldown: 0.5
 --- !u!1 &5156877399525498085
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,7 +820,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4119781882489275778}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hind-left.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,7 +851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5231482386630419019}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-left.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +882,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8313241887075047922}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hind-right.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -942,7 +913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7636281664240513754}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-left.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -973,7 +944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4519450277771779357}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-right.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1004,7 +975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4100139161156494431}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hind-left.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1034,7 +1005,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2732546487834190744}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: loggerhead.armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1065,7 +1036,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6659052311810683839}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spine.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,7 +1067,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5955528482066768767}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-left.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1127,7 +1098,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3364894343226991410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spine.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1149,6 +1120,36 @@ Transform:
   m_Father: {fileID: 6659052311810683839}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6996270255933170282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 222982078843377996}
+  m_Layer: 9
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &222982078843377996
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6996270255933170282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.449}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1583262442252092026}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8649060153800379007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,7 +1159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3430491331049064549}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flipper-right.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1193,7 +1194,8 @@ GameObject:
   - component: {fileID: 5855940196776552108}
   - component: {fileID: 3877454820908350960}
   - component: {fileID: 4071788009215437706}
-  m_Layer: 0
+  - component: {fileID: 6751602304539764503}
+  m_Layer: 9
   m_Name: AggressiveTurtle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1251,6 +1253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goals: []
+  health: {fileID: 0}
   indexGoals: 0
 --- !u!114 &3877454820908350960
 MonoBehaviour:
@@ -1259,13 +1262,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8778349130090676961}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54a6bac9bcb8ab1438eef734554cab6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotator: {fileID: 0}
+  rotator: {fileID: 1583262442252092026}
   weapon: {fileID: 4071788009215437706}
+  target: {fileID: 0}
 --- !u!114 &4071788009215437706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1273,14 +1277,121 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8778349130090676961}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75d25bcf7aa2e824eb9a987d8d6bfd7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
-  startTransform: {fileID: 0}
+  bulletPrefab: {fileID: 1319493434084369649, guid: 7f2b055e40c100a4d8004934dbcbcfdb,
+    type: 3}
+  startTransform: {fileID: 222982078843377996}
   cooldown: 0.5
+  _timer: 0
+--- !u!135 &6751602304539764503
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8778349130090676961}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 15
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8879813890303024487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8494257558669030473}
+  - component: {fileID: 2252558570100832511}
+  - component: {fileID: 5104765619413841767}
+  - component: {fileID: 6093692113764922908}
+  m_Layer: 9
+  m_Name: Cylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8494257558669030473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8879813890303024487}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.179}
+  m_LocalScale: {x: 0.1008, y: 0.26050752, z: 0.1008}
+  m_Children: []
+  m_Father: {fileID: 1583262442252092026}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!33 &2252558570100832511
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8879813890303024487}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5104765619413841767
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8879813890303024487}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &6093692113764922908
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8879813890303024487}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &9054516732121121538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,7 +1401,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6702996501542288170}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hind-left.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1319,10 +1430,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3599626297726658872}
     m_Modifications:
+    - target: {fileID: 7820307023303532172, guid: 355e7010f48ae6345a524db717467cba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4794708952973279074, guid: 355e7010f48ae6345a524db717467cba,
         type: 3}
       propertyPath: m_Name
       value: HealthBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794708952973279074, guid: 355e7010f48ae6345a524db717467cba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4794708952973279078, guid: 355e7010f48ae6345a524db717467cba,
         type: 3}
@@ -1443,6 +1564,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.0063352953
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794708953566962801, guid: 355e7010f48ae6345a524db717467cba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794708953924516307, guid: 355e7010f48ae6345a524db717467cba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 355e7010f48ae6345a524db717467cba, type: 3}

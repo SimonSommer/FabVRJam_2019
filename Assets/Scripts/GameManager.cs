@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager manager;
 
+    public HealthBarController health;
+
     public Life playerLife;
     public Life baseLife;
 
@@ -14,7 +16,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(manager == null) {
+        health = GameObject.Find("Base").GetComponentInChildren<HealthBarController>();
+        if (manager == null) {
             manager = this;
         }
     }
@@ -22,7 +25,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerLife.health <= 0 || baseLife.health <= 0) {
+        if(health.LoadingBar.fillAmount <= 0) {
             losingText.SetActive(true);
             Time.timeScale = 0;
 

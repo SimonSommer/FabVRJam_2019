@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 156521110}
   - component: {fileID: 156521111}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287513706}
   - component: {fileID: 287513707}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Weapon1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,6 +120,7 @@ MonoBehaviour:
     type: 3}
   startTransform: {fileID: 364024804}
   cooldown: 0.25
+  _timer: 0
 --- !u!1 &359490048
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 364024804}
   - component: {fileID: 359490049}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Controller (left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +207,7 @@ GameObject:
   - component: {fileID: 581295867}
   - component: {fileID: 581295868}
   - component: {fileID: 5709636316441466345}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 608334773}
   - component: {fileID: 608334774}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VRAttacking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1474170600}
   - component: {fileID: 1304113613}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Controller (right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -482,7 +483,7 @@ GameObject:
   - component: {fileID: 1474170603}
   - component: {fileID: 1474170602}
   - component: {fileID: 1474170599}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: '[CameraRig]Player'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -607,7 +608,7 @@ GameObject:
   - component: {fileID: 1732329067}
   - component: {fileID: 1732329068}
   - component: {fileID: 2042730552083812398}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -751,7 +752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2106669329}
   - component: {fileID: 2106669330}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Weapon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -788,6 +789,7 @@ MonoBehaviour:
     type: 3}
   startTransform: {fileID: 1474170600}
   cooldown: 0.05
+  _timer: 0
 --- !u!1 &8141891112769632561
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,7 +800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3897658866049669979}
   - component: {fileID: 1774187562334477987}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VRMovement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
