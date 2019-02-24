@@ -14,6 +14,8 @@ public class Turret : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (target == null)
+            return;
         Vector3 targetPos = target.position;
         targetPos.y += offset;
         rotator.LookAt(targetPos);
