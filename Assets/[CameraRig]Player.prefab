@@ -483,10 +483,7 @@ GameObject:
   - component: {fileID: 1474170603}
   - component: {fileID: 1474170602}
   - component: {fileID: 1474170599}
-<<<<<<< HEAD
-=======
   - component: {fileID: 1072968657}
->>>>>>> 14b033a8f9a6d62cffdd207e0ca9e44c7a58a284
   m_Layer: 10
   m_Name: '[CameraRig]Player'
   m_TagString: Untagged

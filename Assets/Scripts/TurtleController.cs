@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.UI;
 
 public class TurtleController : MonoBehaviour
 {
@@ -14,16 +13,12 @@ public class TurtleController : MonoBehaviour
     public Transform[] goals;
     private NavMeshAgent agent;
 
-    public HealthBarController health;
-
     public int indexGoals = 0;
 
     private bool CrashedPlayer;
     private float t;
 
     private void Start() {
-        health = GameObject.Find("Base").GetComponentInChildren<HealthBarController>();
-
         goals = transform.parent.GetComponent<TurtleSpawner>().AllTargets;
 
         //goal = FindObjectOfType<BaseController>().transform;
@@ -40,7 +35,6 @@ public class TurtleController : MonoBehaviour
                 indexGoals++;
                 agent.destination = goals[indexGoals].position;
             } else {
-                health.DecreaseLife(10);
                 Destroy(gameObject);
             }
             

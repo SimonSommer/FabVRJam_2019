@@ -211,36 +211,6 @@ Terrain:
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
---- !u!1 &394729581
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 394729582}
-  m_Layer: 0
-  m_Name: NavPoint3_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &394729582
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394729581}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 52.6, y: 15, z: 153.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &404031726
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,10 +242,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TurtleModel: {fileID: 8778349130090676961, guid: 87a35ec4a49e0fd418b5ab6a02becc58,
     type: 3}
-  RespawnTime: 5
+  RespawnTime: 3
   AllTargets:
   - {fileID: 1900184396}
-  - {fileID: 2054482916}
   - {fileID: 1131890527}
 --- !u!4 &404031728
 Transform:
@@ -406,7 +375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TurtleModel: {fileID: 8778349130090676961, guid: 87a35ec4a49e0fd418b5ab6a02becc58,
     type: 3}
-  RespawnTime: 5
+  RespawnTime: 3
   AllTargets:
   - {fileID: 636275483}
   - {fileID: 1131890527}
@@ -473,7 +442,6 @@ Transform:
   m_PrefabInstance: {fileID: 481686935}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1141378438
-<<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -726,17 +694,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1900184396}
+  - component: {fileID: 1847699093}
+  - component: {fileID: 1847699092}
   m_Layer: 0
-  m_Name: NavPoint1_1
+  m_Name: Directional Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &1900184396
-=======
 --- !u!108 &1847699092
 Light:
   m_ObjectHideFlags: 0
@@ -776,15 +742,14 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &1847699093
->>>>>>> 14b033a8f9a6d62cffdd207e0ca9e44c7a58a284
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900184395}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 132.2, y: 15, z: 33}
+  m_GameObject: {fileID: 1847699091}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 177.44576, y: 27.012716, z: 45.46445}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -810,46 +775,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1983589695}
-  - component: {fileID: 1983589694}
+  - component: {fileID: 1900184396}
   m_Layer: 0
-  m_Name: Spawner3
+  m_Name: NavPoint1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1983589694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983589693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6ee763933c15b64ba215c6e75c3f2d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TurtleModel: {fileID: 8778349130090676961, guid: 87a35ec4a49e0fd418b5ab6a02becc58,
-    type: 3}
-  RespawnTime: 5
-  AllTargets:
-  - {fileID: 394729582}
-  - {fileID: 1131890527}
---- !u!4 &1983589695
+--- !u!4 &1900184396
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983589693}
+  m_GameObject: {fileID: 1900184395}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 113.35, y: 20.39, z: 147.44}
+  m_LocalPosition: {x: 132.2, y: 15, z: 33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2014472508
 PrefabInstance:
