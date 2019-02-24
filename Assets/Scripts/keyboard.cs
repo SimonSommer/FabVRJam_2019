@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class keyboard : MonoBehaviour
 {
+	public Weapon weapon1;
+    public Weapon weapon2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,9 +25,15 @@ public static void ForDebug(Vector3 pos, Vector3 direction, float arrowHeadLengt
     // Update is called once per frame
      void Update()
 	 { 
-	 ForDebug(transform.position+new Vector3(1,0,0),transform.forward);
-	 ForDebug(transform.position+new Vector3(-1,0,0),transform.rotation *new Vector3(0,0,1));
-	 ForDebug(transform.position,transform.rotation * Quaternion.Euler(90,0,0)* new Vector3(0,50 * Time.deltaTime,0));
+	 //ForDebug(transform.position+new Vector3(1,0,0),transform.forward);
+	 //ForDebug(transform.position+new Vector3(-1,0,0),transform.rotation *new Vector3(0,0,1));
+	 //ForDebug(transform.position,transform.rotation * Quaternion.Euler(90,0,0)* new Vector3(0,50 * Time.deltaTime,0));
+	 if(Input.GetKey(KeyCode.L)){
+		 weapon1.Attack();
+	 }
+	 if(Input.GetKey(KeyCode.F)){
+		 weapon2.Attack();
+	 }
 	 if(Input.GetKey(KeyCode.LeftShift)){
 		  if(Input.GetKey(KeyCode.RightArrow))
 		  {
